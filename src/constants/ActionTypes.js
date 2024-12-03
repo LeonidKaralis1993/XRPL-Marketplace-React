@@ -1,0 +1,15 @@
+export const FETCH_START = "FETCH_START";
+export const FETCH_SUCCESS = "FETCH_SUCCESS";
+export const FETCH_ERROR = "FETCH_ERROR";
+
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+
+export const UPDATE_AUTH_USER = "UPDATE_AUTH_USER";
+export const UPDATE_LOAD_USER = "UPDATE_LOAD_USER";
+
+export const SET_AUTHORS = "SET_AUTHORS";
+export const SET_AUTHORS_RANKING = "SET_AUTHORS_RANKING";
+export const SET_SELECTED_AUTHOR = "SET_SELECTED_AUTHOR";
+
+export const SET_NFTS = "SET_NFTS";
+export const SET_MY_NFTS = "SET_MY_NFTS";

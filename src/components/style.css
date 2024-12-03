@@ -1,0 +1,154 @@
+.list-icon-root {
+  min-width: 10px;
+  margin-right: 20px;
+}
+.list-icon-root:hover {
+  cursor: pointer;
+}
+
+.list-icon-root .MuiSvgIcon-root {
+  fontsize: 18px;
+}
+
+.list-item-action {
+  right: 0px;
+  color: #000;
+}
+.MuiIconButton-root,
+.MuiSvgIcon-root {
+  font-size: 18px;
+}
+
+.profile-list-title {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 0px;
+  padding-bottom: 8px;
+}
+.profile-list-root {
+  position: relative;
+}
+.profile-list-root li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.profile-list-root li .MuiListItem-gutters {
+  padding: 10px 0;
+}
+.profile-list-root li .MuiListItem-gutters {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+.profile-list-root li .MuiTypography-body2 {
+  font-size: 16px;
+}
+.personal-list-root {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.personal-list-root li {
+  align-items: flex-end;
+}
+.personal-list-root li .MuiListItemText-multiline {
+  margin: 0px;
+}
+.personal-list-root li .MuiListItemText-primary {
+  color: rgba(255, 255, 255, 0.38);
+  font-size: 12px;
+  letter-spacing: 0.4;
+}
+.personal-list-root .list-icon-root {
+  margin-bottom: 2px;
+}
+
+.user-root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.header-avatar-root {
+  cursor: pointer;
+  position: relative;
+}
+.user-info {
+  margin-left: 16px;
+  transition: all 0.3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+.user-title {
+  color: rgb(0, 0, 0);
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+.user-title .MuiSvgIcon-root {
+  margin-left: 16px;
+}
+.user-sub-title {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.4;
+}
+
+.menu-root .MuiMenu-list {
+  padding: 16px;
+}
+
+.menu-item-root {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  color: rgba(0, 0, 0, 0.38);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.menu-item-root::hover,
+.menu-item-root .active {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: transparent;
+}
+,
+.menu-item-root .MuiTouchRipple-root {
+  display: none;
+}
+
+.menu-item-root::first-child {
+  padding-top: 0px;
+}
+.menu-status-Dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+#user-popover > .MuiPaper-root {
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: rgba(33, 36, 40, 1);
+  color: #fff;
+  width: 340px;
+}
+#user-popover > .MuiPaper-root > .MuiBox-root ul li {
+  color: #fff;
+}
+
+#user-popover > .MuiPaper-root > .MuiBox-root ul li p {
+  color: grey;
+}
+#user-popover > .MuiPaper-root > .MuiBox-root p {
+  color: #fff;
+}
+
+#user-popover > .MuiPaper-root > .MuiBox-root ul li span {
+  color: #fff;
+}
+
+.MuiPaper-root > .MuiList-root {
+  background-color: #fff;
+  color: #fff;
+}
