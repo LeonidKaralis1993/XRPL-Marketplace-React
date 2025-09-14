@@ -10,24 +10,6 @@
 
 ### Running locally with NPM
 
-- Fork/Clone the repo:
-
-```sh
-git clone git@github.com:moerphous/moerphous.git
-```
-
-- Open the newly created directory:
-
-```sh
-cd moerphous
-```
-
-- Install the required dependencies:
-
-```sh
-npm install
-```
-
 In order to run the project locally or build for production use, you need to set the following environment variable to connect with the server: 
 
 ```sh
@@ -68,9 +50,6 @@ To deploy the client, you will need to set the following environment variable th
 
 [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/moerphous/moerphous)
 
-## Deploy locally with Compose v2
-
-Navigate to [the server repository](https://github.com/moerphous/moerphous-server) and follow the instructions listed in [this section](https://github.com/moerphous/moerphous-server#deploy-locally-with-compose-v2) to run both the client and the server in docker containers.
 
 ## License
 
